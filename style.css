@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
 body {
     /* Сброс стандартых стилей */
     margin: 0;
+    font-family: 'Days One', sans-serif;
+    
 }
 
 .nav {
@@ -48,4 +52,7 @@ body {
 }
 .wrapper {
     display: flex;
+}
+.img405{
+width: 78%;
 }
