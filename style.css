@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
 body {
     margin: 0%;
     /* background-color: rgb(232, 232, 232); */
     font-family: 'Source Sans 3', sans-serif;
     background-image: url(GD-2.png);
 }
+
 .HEADER {
     display: flex;
     background-color: #7499b8b6;
@@ -12,24 +14,29 @@ body {
     margin: 0vw;
     padding: 3px;
 }
+
 .silka {
     margin-left: 2vw;
     text-decoration: none;
     padding: 3px;
     color: azure
 }
+
 p {
     margin: 0%;
 }
+
 :hover.silka {
     background-color: #7094b4e4;
-    transition: 0.3s linear; 
+    transition: 0.3s linear;
 }
+
 .GD {
     width: 99vw;
     display: flex;
-    
+
 }
+
 .card {
     background-color: #7499b8b6;
     padding: 10px;
@@ -37,15 +44,22 @@ p {
     /* display: flex; */
     margin-bottom: 10px;
     width: 13vw;
-    height: 22vw;
+    height: auto;
     margin-left: 1vw;
-    margin-top: 3vh;
+    margin-top: 2vh;
     color: azure
 }
+
 .card-img {
     width: 13vw;
-    
+
 }
-.page { 
+
+.page {
+    display: flex;
+}
+
+.LV {
+    width: 99vw;
     display: flex;
 }
