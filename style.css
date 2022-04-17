@@ -1,58 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
 body {
-    /* Сброс стандартых стилей */
-    margin: 0;
-    font-family: 'Days One', sans-serif;
+    margin: 0%;
+    /* background-color: rgb(232, 232, 232); */
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(GD-2.png);
+}
+.HEADER {
+    display: flex;
+    background-color: #7499b8b6;
+    text-decoration: none;
+    margin: 0vw;
+    padding: 3px;
+}
+.silka {
+    margin-left: 2vw;
+    text-decoration: none;
+    padding: 3px;
+    color: azure
+}
+p {
+    margin: 0%;
+}
+:hover.silka {
+    background-color: #7094b4e4;
+    transition: 0.3s linear; 
+}
+.GD {
+    width: 99vw;
+    display: flex;
     
 }
-
-.nav {
-    padding: 15px;
-    background-color: cadetblue;
-    color: white;
-    text-decoration: none;
+.card {
+    background-color: #7499b8b6;
+    padding: 10px;
+    border-radius: 10px;
+    /* display: flex; */
+    margin-bottom: 10px;
+    width: 13vw;
+    height: 22vw;
+    margin-left: 1vw;
+    margin-top: 3vh;
+    color: azure
 }
-
-.nav-ul {
-    /* Сброс стандартых стилей */
-    margin: 0;
-    list-style: none;
-    padding: 0;
-
-    /* Выстраивание элементов в строку */
+.card-img {
+    width: 13vw;
+    
+}
+.page { 
     display: flex;
-}
-
-.nav-li {
-    /* Отступ сверху и снизу 0, справа и слева 10px */
-    padding: 0 2vw;
-    background-color: aliceblue;
-    color: black;
-    margin: 1vw;
-}
-.nav-li:hover {
-    color: azure;
-    color: black;
-    /* Подчеркивание текста при наведении */
-    text-decoration: underline;
-}
-
-
-.banner-img {
-    margin: 3vh 0;
-    width: 40vw;
-    padding-left: 28vw;
-    padding-right: 28vw;
-}
-
-.main {
-    background-color: aquamarine;
-    padding: 2vh 3vw;
-}
-.wrapper {
-    display: flex;
-}
-.img405{
-width: 78%;
 }
